@@ -1,0 +1,14 @@
+2025-03-01 20:35:12,043 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2025-03-01 20:35:12,043 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Vivek\AppData\Local\Programs\Python\Python312\Lib\site-packages\instabot\bot\bot.py
+2025-03-01 20:35:12,043 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2025-03-01 20:35:14,543 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2025-03-01 20:35:16,418 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2025-03-01 20:35:18,756 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2025-03-01 20:35:21,660 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2025-03-01 20:35:24,893 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2025-03-01 20:35:24,893 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"We can\'t find an account with ******. Try another phone number or email, or if you don\'t have an Instagram account, you can sign up.","status":"fail","error_title":"Can\'t find account","buttons":[{"title":"Sign Up","action":"switch_to_signup_flow"},{"title":"Try Again","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"invalid_user"}'
+2025-03-01 20:35:24,893 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2025-03-01 20:35:24,895 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: We can't find an account with ******. Try another phone number or email, or if you don't have an Instagram account, you can sign up.
+2025-03-01 20:35:24,895 - instabot version: 0.117.0 (api) - INFO - Error type: invalid_user
+2025-03-01 20:35:24,895 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2025-03-01 20:35:24,904 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
